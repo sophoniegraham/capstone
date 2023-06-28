@@ -1,0 +1,126 @@
+#navbar {
+    background-color: darkslategrey;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "montserrat", Helvetica, Helvetica, Arial, sans-serif;
+    
+    /* position:sticky; */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    background: linear-gradient(45deg, #11998E, #38EF7D);
+    color: #ddd;
+    overflow: scroll;
+
+  }
+
+  #mission {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: black;
+  }
+
+
+  #primary-top {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    margin-right: 10px;
+  }
+
+  .logo img {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+  }
+
+  #navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  #navbar ul li {
+    margin: 0 10px;
+  }
+
+  #navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  #navbar ul li a:hover {
+    color: #ff9800;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 40px;
+  }
+
+  .container h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .container input,
+  .container textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .container input[type="submit"] {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .container input[type="submit"]:hover {
+    background-color: #f57c00;
+  }
+  .card {
+    background-color: white; /* Set the background color of the cards to white */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #333; /* Set the text color inside the cards */
+  }

@@ -25,7 +25,17 @@ body {
     border-radius: 5px;
     margin-top: 20px;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Assuming you want to center the image vertically as well */
+    text-align: center;
   }
+  .mission-exp img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
   #primary-top {
